@@ -1,5 +1,7 @@
 import student as s
 l=[]
+print("="*40)
+print("Welcome to Student Management System")
 while True:
 	print("="*40)
 	print("1. Add student")
