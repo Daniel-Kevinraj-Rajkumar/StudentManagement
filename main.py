@@ -4,11 +4,12 @@ print("="*40)
 print("Welcome to Student Management System")
 while True:
 	print("="*40)
-	print("1. Add student")
+	print("1. Add student details")
 	print("2. Display student details")
-	print("3. Search student")
-	print("4. Delete student")
-	print("5. Exit")
+	print("3. Search student details")
+	print("4. Delete student details")
+	print("5. Update student details")
+	print("6. Exit")
 	print("="*40)
 	num=int(input("Enter your choice: "))
 	if num == 1:
@@ -20,6 +21,8 @@ while True:
 	elif num == 4:
 		s.delete_student(l)
 	elif num == 5:
+		s.update_student(l)
+	elif num == 6:
 		print("Exiting program .")
 		break
 	else:
